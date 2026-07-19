@@ -1,1 +1,7 @@
 # EquityScreener
+
+During winter break of my sophomore year, I participated in the UBS Stock Pitch Competition, which was an ehilirating experience as I had no knowledge in the finance world whatsoever. Nevertheless, after weeks of research on stock valuation, this project was made as an attempt to combine the quantitative skills I know I had, and the qualitative skills I had just learned, and served as a supplement for my investment thesis on APA Corporation (NASDAQ: APA). 
+
+For the competition, I was tasked with filtering through a universe of stocks (about 500) of various sectors, and picking the firm that showed the greatest undervaluation, and soforth, the greatest potential for a long oppurtunity. I realized that at its core a great investment thesis needs an absolute valuation, and a relative valuation, and that  a Python script that does parses through these tickers, fetched the financial data of each company, computed respective metrics for each company, and then compare the metrics to each other, would be a perfect way to relatively value each of the 500 companies, while also narrowing down the universe of stocks into a manageable list of 5-10 stocks that I could further assess with an absolute valuation. 
+
+To start, I copied all the tickers into a list and created a for loop to loop through each ticker. Using yfinance, I then collected the financial information of each stock.
